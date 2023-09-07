@@ -4,3 +4,17 @@
     box-sizing: border-box;
     font-family: 'Fredoka', sans-serif;
 }
+
+/* utility */
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* palette */
+:root {
+	--color-main-title: #e53170;
+	--color-bg-article: #0f0e17;
+	--color-text-mail: #4abce8;
+}
