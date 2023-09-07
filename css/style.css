@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Fredoka', sans-serif;
+    font-size: 20px;
 }
 
 /* utility */
@@ -10,6 +11,10 @@
     content: "";
     display: table;
     clear: both;
+}
+
+.push-left{
+    float: left;
 }
 
 /* palette */
@@ -25,9 +30,23 @@ section.container{
     margin: auto;
 }
 
-header{
-    font-size: 30px;
+h1{
+    font-size: 50px;
     text-align: center;
-    margin: 50px;
+    padding: 50px;
     color: var(--color-main-title);
+}
+
+/* main */
+main>p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* section article */
+section>article{
+    height: 100px;
+    width: calc((100% / 3) - 40px);
+    margin: 30px 20px;
+    background-color: var(--color-bg-article);
 }
