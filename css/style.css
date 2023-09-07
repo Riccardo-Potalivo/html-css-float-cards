@@ -18,3 +18,16 @@
 	--color-bg-article: #0f0e17;
 	--color-text-mail: #4abce8;
 }
+
+/* section container */
+section.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+header{
+    font-size: 30px;
+    text-align: center;
+    margin: 50px;
+    color: var(--color-main-title);
+}
